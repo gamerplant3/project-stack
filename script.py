@@ -52,7 +52,7 @@ def analyze_directory(directory):
     return df_summary
 
 # Example usage
-directory_path = r"C:\Users\WChikowero\OneDrive - Thornton Tomasetti, Inc\New folder"
+directory_path = r"C:\Users\me\Downloads"
 file_types_summary = analyze_directory(directory_path)
 
 #print(file_types_summary)
