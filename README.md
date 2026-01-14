@@ -1,2 +1,30 @@
-output figure from analyze_directory.py
+**output figure from analyze_directory.py**
 ![image](https://github.com/user-attachments/assets/53668afe-28b1-4136-9f71-d64562285d6e)
+
+**output from balance_at_maturity.py**
+```
+Today is: 2026-01-14
+Principal after last payment (Mar 26): $350,711.58
+Accrued interest (6 days till maturity): $278.07
+Balance at Maturity (Apr 1): $350,989.65
+```
+
+**output from prepayment_analysis.py**
+```
+--- TABLE 1: MONTHLY PAYMENTS OVER 5 YRS ($1,787.77) ---
+Extra   Freq Prepayments Principal Paid Interest Saved Balance at Renewal
+   $0 Weekly       $0.00     $47,110.62          $0.00        $303,879.03
+ $100 Weekly  $26,000.00     $75,595.53      $2,484.91        $275,394.12
+ $150 Weekly  $39,000.00     $89,837.98      $3,727.36        $261,151.67
+ $200 Weekly  $52,000.00    $104,080.43      $4,969.81        $246,909.22
+ $250 Weekly  $65,000.00    $118,322.88      $6,212.26        $232,666.77
+
+--- TABLE 2: ACCELERATED WEEKLY PAYMENTS OVER 5 YRS ($446.94) ---
+Extra   Freq Prepayments Principal Paid Saved by Freq Saved by Prepay Total Int Saved Balance at Renewal
+   $0 Weekly       $0.00     $57,052.41     $1,003.59           $0.00       $1,003.59        $293,937.24
+ $100 Weekly  $26,000.00     $85,570.72     $1,003.59       $2,518.31       $3,521.90        $265,418.93
+ $150 Weekly  $39,000.00     $99,829.88     $1,003.59       $3,777.47       $4,781.06        $251,159.77
+ $200 Weekly  $52,000.00    $114,089.04     $1,003.59       $5,036.63       $6,040.22        $236,900.61
+ $250 Weekly  $65,000.00    $128,348.19     $1,003.59       $6,295.78       $7,299.37        $222,641.46
+```
+ 
